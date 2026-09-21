@@ -58,12 +58,20 @@ codex mcp login do-ngan
 - ลงงานที่เพิ่งทำให้หน่อย
 - สรุปงานทีมสัปดาห์นี้
 
-## อัปเดต
+## อัปเดต (คนที่ติดตั้งไว้แล้ว)
 
 ```sh
-claude plugin marketplace update do-ngan && claude plugin update do-ngan@do-ngan   # Claude Code
-codex plugin marketplace upgrade do-ngan     # Codex
+# Claude Code — ต้องสองคำสั่ง: คำสั่งแรกแค่ดึงรายการใหม่ ตัวที่ติดตั้งยังเป็นของเดิมจนกว่าจะสั่งคำสั่งที่สอง
+claude plugin marketplace update do-ngan
+claude plugin update do-ngan@do-ngan
+
+# Codex — คำสั่งเดียว
+codex plugin marketplace upgrade do-ngan
 ```
+
+แล้วเปิด Claude Code / Codex ใหม่ · ล็อกอินค้างไว้เหมือนเดิม ไม่ต้องทำซ้ำ
+
+tool ฝั่ง MCP (`https://do-ngan.com/mcp`) อัปเดตเองทุกครั้งที่ดูงาน deploy ไม่ต้องทำอะไร — แค่เปิด session ใหม่ให้ AI โหลดรายการ tool ล่าสุด
 
 ## ถอนสิทธิ์
 
