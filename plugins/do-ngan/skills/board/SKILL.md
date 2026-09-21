@@ -22,6 +22,7 @@ description: ดูบอร์ดและค้นงานในดูงา�
 - `priority` — รายการ เช่น `["hotfix","urgent"]` · `lane` — `routine` / `urgent`
 - `project` — ชื่อ/id · `search` — คำในชื่อหรือรายละเอียด
 - `overdue: true` — เลยกำหนดแล้วแต่ยังไม่เสร็จ · `due_within_days: N` — ครบกำหนดภายใน N วัน
+- `has_sheet: true` — เฉพาะงานที่มีแผ่นงานย่อย (ทุกงานที่มีแผ่นงานจะมี `sheet: {done, total}` ในผล ไม่ต้อง `get_task` ทีละใบ)
 - `include_done` — ค่าเริ่มต้นไม่รวมงานเสร็จ · `limit` — ค่าเริ่มต้น 50 สูงสุด 500
 
 ## คำถามที่พบบ่อย

@@ -50,7 +50,7 @@ description: ใช้เมื่อผู้ใช้พูดถึงดู�
 | แก้ / มอบหมาย / สถานะ / % / ลบ | `update_task` `assign_task` `set_task_status` `set_task_progress` `delete_task` | `update-task` |
 | เตือน / งานทำซ้ำ | `set_task_reminder` | `reminder` |
 | ลงงานจากโค้ดที่เพิ่งทำ | (รวมหลายตัว) | `log-work` |
-| โปรเจค | `list_projects` `get_project` `create_project` `update_project` `set_project_progress` `add_task_to_project` | `projects` |
+| โปรเจค | `list_projects` `get_project` `create_project` `update_project` `set_project_progress` `add_task_to_project` `reorder_project_tasks` | `projects` |
 | โน้ตบนบอร์ดทีม | `list_notes` `create_note` `update_note` | `notes` |
 | แผ่นงานย่อย (ตาราง) | `read_sheet` `update_sheet` | `sheet` |
 | ซิงก์รายการจากไฟล์ในโค้ด → แผ่นงาน | `read_sheet` `update_sheet` + git | `sync-sheet` |
