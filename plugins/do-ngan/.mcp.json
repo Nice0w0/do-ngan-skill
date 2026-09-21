@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "do-ngan": {
+      "type": "http",
+      "url": "https://do-ngan.com/mcp",
+      "oauth_resource": "https://do-ngan.com/mcp"
+    }
+  }
+}

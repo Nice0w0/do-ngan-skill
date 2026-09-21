@@ -1,0 +1,19 @@
+{
+  "name": "do-ngan",
+  "owner": {
+    "name": "ดูงาน",
+    "url": "https://do-ngan.com"
+  },
+  "metadata": {
+    "description": "ปลั๊กอินของดูงาน (do-ngan.com) สำหรับ Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "do-ngan",
+      "description": "ต่อ Claude Code เข้ากับบอร์ดงานของดูงาน — ดูงานของฉัน สั่งงาน อัปเดตสถานะจากงานที่เพิ่งเขียนโค้ดเสร็จ และสรุปงานทีม",
+      "source": "./plugins/do-ngan",
+      "category": "productivity",
+      "homepage": "https://do-ngan.com"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "do-ngan",
+  "version": "0.1.0",
+  "description": "ต่อ Claude Code เข้ากับบอร์ดงานของดูงาน (do-ngan.com) — ดูงานของฉัน สั่งงาน อัปเดตสถานะจากงานที่เพิ่งเขียนโค้ดเสร็จ และสรุปงานทีม",
+  "author": {
+    "name": "ดูงาน",
+    "url": "https://do-ngan.com"
+  },
+  "homepage": "https://do-ngan.com",
+  "keywords": ["task", "kanban", "project-management", "thai"]
+}

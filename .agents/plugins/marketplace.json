@@ -1,0 +1,20 @@
+{
+  "name": "do-ngan",
+  "interface": {
+    "displayName": "ดูงาน"
+  },
+  "plugins": [
+    {
+      "name": "do-ngan",
+      "source": {
+        "source": "local",
+        "path": "./plugins/do-ngan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
